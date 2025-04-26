@@ -1,0 +1,72 @@
+# Bike Rentals - Final Project Data Analytic
+This is a final project from Dicoding in the "Belajar Analisis Data Dengan Python" course. The course is about to make analysis using python and create a dashboard from the bike sharing dataset streamlit. **Note : this for learning purpose**
+## File Structure
+``` 
+.
+├── dashboard
+│   ├── bike_rental.png
+│   ├── dashboard.py
+│   └── main-data.csv
+├── data
+│   ├── day.csv
+|   └── hour.csv
+├── screenshots
+|   ├── Screenshots (91).png
+|   ├── Screenshots (92).png
+|   ├── Screenshots (93).png
+|   └── Screenshots (94).png
+├── README.md
+├── notebook.ipynb
+├── url.text
+└── requirements.txt
+```
+## Phase of this Project
+#### Data Wrangling:
+Gathering data
+Assessing data
+Cleaning data
+#### Exploratory Data Analysis:
+Explore dataset
+Defined business questions for data exploration
+Create Data exploration
+#### Data Visualization:
+Create Data Visualization
+Answer The Question that before created
+#### Dashboard:
+Set up the Dashboard
+Make filter components on the dashboard
+Add data visualizations
+
+## Run Project
+1. Clone or download this repository
+    - You can use
+    ``` 
+      git clone https://github.com/ReizalPutra/submissin-bike-rent-dicoding.git
+    ```
+    -or download this porject
+    -After clone/download complete use 
+    ``` 
+    cd .\submission-bike-rent-dicoding\
+    ```
+2. Set-up Envirollment
+
+    ###### Setup Environment - Anaconda
+    ```
+    conda activate main-ds
+    pip install -r requirements.txt
+    ```
+
+    ###### Setup Environment - Shell/Terminal
+    ```
+    cd proyek_analisis_data
+    pipenv install
+    pipenv shell
+    pip install -r requirements.txt
+    ```
+
+3. Run Project
+   Run use streamlit, make sure you're already install the depedency
+    ```
+
+    streamlit run /dashboard/dashboard.py
+    ```
